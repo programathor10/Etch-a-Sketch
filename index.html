@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+     <div id="header">
+        <h1>Mi Cuadrícula Mágica</h1>
+        <p>¡Pasa el ratón para pintar y crea nuevas cuadrículas!</p>
+    </div>
+
+    <div id="controles">
+        <button id="btnNuevaCuadricula">Crear Nueva Cuadrícula</button>
+        <!-- Aquí podrías añadir otros botones más adelante, como "Reiniciar" -->
+        <button id="btnCambiarColorPintado" class="button">Cambiar Color de Lápiz</button>
+        <button id="btnReiniciarCuadricula" class="button">Reiniciar Cuadrícula</button> <!-- ¡Nuevo botón! -->
+        <span id="currentColorDisplay" class="color-display">Color actual: <span id="currentPaintColorSpan" class="color-box"></span></span>
+    </div>
+    <div id="contenedor"></div>
+    <script src="app.js"></script>
+</body>
+</html>
